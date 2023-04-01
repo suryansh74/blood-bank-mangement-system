@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text>a {
+    text-decoration: none;
+    color: rgb(227, 75, 111); 
+}
+.hos-image {
+  background-image: url("https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=868&q=80");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hos-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.hos-text>a {
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+    color: rgb(255, 59, 59); 
+    font-size: 1.5rem;
+}
+.hos-text>a:hover {
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+    color: rgb(255, 117, 117); 
+    font-size: 1.5rem;
+}
+#hos-link
+{
+  background-color: orange;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+}
+#hos-link:hover
+{
+  background-color: rgb(255, 178, 35);
+}
+.rec-image {
+  background-image: url("https://plus.unsplash.com/premium_photo-1664299422915-d67e36404534?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymxvb2QlMjBkb25vcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.rec-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.rec-text>a {
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+    color: rgb(255, 59, 59); 
+    font-size: 1.5rem;
+}
+.rec-text>a:hover {
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+    color: rgb(255, 117, 117); 
+    font-size: 1.5rem;
+}
